@@ -1,0 +1,10 @@
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+    content-type: text/html
+    prefix: classpath:templates/
+    suffix: .html
+
+  #������ѡ��ʹ���ĸ������������ļ�
+  profiles:
+    active: dev  #������ָ������������λ��

@@ -1,0 +1,10 @@
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+    content-type: text/html
+    prefix: classpath:templates/
+    suffix: .html
+
+  #在这里选择使用哪个环境的配置文件
+  profiles:
+    active: dev  #这里是指定开发环境的位置
